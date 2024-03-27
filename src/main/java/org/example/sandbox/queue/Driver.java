@@ -1,0 +1,25 @@
+package org.example.sandbox.queue;
+
+public class Driver {
+
+    public static void main(String[] args) {
+
+        Queue<String> queue = new ArrayListQueue<>();
+
+        queue.offer("Chicken");
+        queue.offer("Nugget");
+        queue.offer("Bock");
+
+        System.out.println(queue);
+
+        System.out.println(queue.peek());
+
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+
+        System.out.println(queue);
+
+        System.out.println(queue.isEmpty());
+
+    }
+}

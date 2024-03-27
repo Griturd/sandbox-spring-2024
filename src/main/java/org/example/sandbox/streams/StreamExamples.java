@@ -52,7 +52,7 @@ public class StreamExamples {
         numbers.forEach(System.out::println);*/
 
         //reduce
-        /*int sum = 0;
+        int sum = 0;
         for(int x = 1; x <= 5; x++) {
             if (x % 2 == 0) {
                 sum += x;
@@ -64,7 +64,7 @@ public class StreamExamples {
                 .stream()
                 .filter(evenOnlyPredicate)
                 .reduce(0, (acc, x) -> acc + x);
-        System.out.println("Even sum: " + evenSum);*/
+        System.out.println("Even sum: " + evenSum);
 
 
         //int stream
